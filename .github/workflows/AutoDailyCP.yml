@@ -7,9 +7,9 @@
 name: AutoDailyCP
 
 on:
-  #push:
-    #branches: 
-      #- master
+  push:
+    branches: 
+      - master
   watch:
     types: started
   schedule:
