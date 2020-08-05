@@ -29,7 +29,7 @@ jobs:
       - name: Download DailyCP
         run: |
           git clone https://github.com/QiuYueBaiJXW/AutoDailyCP
-          mv ./FuckDailyCP/* ./
+          mv ./AutoDailyCP/* ./
       - name: Install extensions
         run: |
           pip3 install setuptools
