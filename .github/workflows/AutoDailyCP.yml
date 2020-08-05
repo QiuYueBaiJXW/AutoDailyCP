@@ -13,7 +13,7 @@ on:
   watch:
     types: started
   schedule:
-    - cron: 04 10 * * *
+    - cron: 07 10 * * *
 
 jobs:
   build:
