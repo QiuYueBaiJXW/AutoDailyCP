@@ -4,7 +4,7 @@
 # Author: 柠火
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-name: DailyCP
+name: AutoDailyCP
 
 on:
   push:
