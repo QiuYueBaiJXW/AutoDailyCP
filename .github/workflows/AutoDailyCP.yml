@@ -41,4 +41,4 @@ jobs:
           PASSWORD: ${{ secrets.PASSWORD }}
           ADDRESS: ${{ secrets.ADDRESS }}
         run: |
-          python3 DailyCP.py ${SCHOOL_NAME} ${ACCOUNT} ${PASSWORD} ${ADDRESS}
+          python3 DailyCP.py ${SCHOOL_NAME} ${ACCOUNT} ${PASSWORD} ${ADDRESS} ./AutoDailyCP/formdb
