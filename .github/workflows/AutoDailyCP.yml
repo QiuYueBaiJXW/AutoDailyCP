@@ -1,8 +1,4 @@
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# https://github.com/lemofire/AutoDailyCP
-# Lisence: MIT
-# Author: 柠火
-#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 
 name: AutoDailyCP
 
@@ -23,14 +19,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - name: Install python3
-        run: |
-          sudo -E apt-get -yqq update
-          sudo -E apt-get -yqq install python3
-      - name: Download DailyCP
-        run: |
-          git clone https://gitee.com/qiuyuebaijxw/AutoDailyCP
-          mv ./AutoDailyCP/* ./
       - name: Install extensions
         run: |
           pip3 install setuptools
